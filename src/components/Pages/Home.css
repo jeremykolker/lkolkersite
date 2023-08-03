@@ -1,0 +1,30 @@
+/* Home.css */
+
+h1{
+   margin-bottom: 100px;
+  
+   font-display: center;
+}
+/* Apply a small black border to all images */
+.responsive-image {
+    border: 2px solid black;
+  }
+  
+  /* Make images responsive by setting their max height to 100vh */
+  .image-container {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .responsive-image {
+    align-self: center;
+    max-height: auto;
+    margin: 7px;
+    width: 500px; /* Set the desired width for the images */
+    
+  }
+  
